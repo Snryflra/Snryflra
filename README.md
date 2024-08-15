@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <header class="bg-blue-600 p-6 text-white text-center">
+        <h1 class="text-4xl font-bold">Sianrey Flora</h1>
+        <p class="text-lg">Software Engineer - Network Engineer</p>
+    </header>
+
+    <main class="container mx-auto mt-6 px-4">
+        <section id="about" class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+            <p class="text-lg">I am a software engineer with 1 year of experience in Java , css,python,html,JavaScript and C# development.</p>
+            <p class="text-lg">a Network engineer with 1 year of  in cisco. I have a passion for creating a stable and reliable network.</p>
+        </section>
+
+
+
+        <section id="experience" class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">Experience</h2>
+            <ul class="list-disc list-inside">
+                <li class="mb-2">
+                    <strong>Junior software Engineer And Network engineer</strong> at STI (2023 - Present)
+                    <p>Worked on developing and maintaining  a reliabe and secure Network.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+            <ul class="list-disc list-inside">
+                <li class="mb-2">
+                    <strong>Project A</strong>
+                    <p>Manual Calculator , Word Guessing Game , Hotel Registration ,Student Registration Form,Cisco Projects(LAN)</p>
+                </li>
+                <li class="mb-2">
+                    <strong>Project B</strong>
+                    <p>Employee payroll ,School Cashier System ,BANK SYSTEM (Withdraw and Deposit),Update School Topologies</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+            <form id="contactForm" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" id="name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm"></textarea>
+                </div>
+                <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md">Send</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer class="bg-gray-800 p-4 text-white text-center">
+        <p>&copy; 2024 Sianrey Flora. All rights reserved.</p>
+    </footer>
+
+    <footer class="bg-gray-800 p-6 text-white text-center">
+        <div class="mb-4">
+            <center><p class="text-lg">Social Media</p></center>
+            <a href="https://www.linkedin.com/in/johndoe" target="_blank" class="mx-2 text-blue-400 hover:underline">LinkedIn</a>
+            <a href="https://github.com/johndoe" target="_blank" class="mx-2 text-blue-400 hover:underline">GitHub</a>
+            <a href="mailto:johndoe@example.com" class="mx-2 text-blue-400 hover:underline">Email</a>
+        </div>
+        
+    </footer>
+
+    <script src="app.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
